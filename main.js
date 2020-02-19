@@ -38,7 +38,7 @@ function calculate(){
     const divisor = pow-1;
     const monthlyPayment = (dividend)/(divisor); 
     rmonthlyPayment.value = monthlyPayment.toFixed(2);
-    const tpayment = (Number(loanAmount) + (monthlyPayment*years)).toFixed(2);
+    const tpayment = ((monthlyPayment*years)).toFixed(2);
     totalPayment.value = tpayment;
     const tIntrest = (tpayment - loanAmount).toFixed(2); 
     totalIntrest.value = tIntrest;
