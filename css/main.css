@@ -71,7 +71,7 @@ input[placeholder="loan-amount"],input[placeholder="Annual interest"],input[plac
     background-color: #343A44;
     border: none;
     color: rgb(245, 245, 245);
-    height: 6vh;
+    height: 40px;
     border-radius: 5px;
     cursor: pointer;
 } 
@@ -105,4 +105,13 @@ input[placeholder="loan-amount"],input[placeholder="Annual interest"],input[plac
 .loader {
     margin: auto;
     display: none;
+}
+@media screen and (max-width:500px){
+    .form {
+
+        width: 80%;
+        margin: 5% auto 0;
+
+    }
+
 }
